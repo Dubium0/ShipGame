@@ -8,7 +8,7 @@ public class ExplosionEffect : MonoBehaviour
 
 
     private void Update() {
-
+        // patlama efektini countDown  kadar süre sonra yok ediyor
         countDown-=Time.deltaTime;
 
         if(countDown<0)
