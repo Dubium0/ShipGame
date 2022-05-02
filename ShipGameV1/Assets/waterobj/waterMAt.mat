@@ -41,11 +41,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_88c73be6d5cf4762a89da22e025ba7a2: 0.11
-    - _depth: 0.47
+    - _depth: 7.96
     - _normalStrength: 2.25
     - _smoothness: 0.71
     - _strength: 0.02
     m_Colors:
-    - _deepWaterColor: {r: 0.3033108, g: 0.3195906, b: 0.9056604, a: 0.8078431}
+    - _deepWaterColor: {r: 0.30196083, g: 0.80732113, b: 0.90588236, a: 0.8078431}
     - _shallowWaterColor: {r: 0.18943575, g: 0.8641409, b: 0.9339623, a: 0.8431373}
   m_BuildTextureStacks: []

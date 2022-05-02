@@ -145,5 +145,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05240b1f4b9e3a547a5f981424e3319f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yPosOffset: 2
+  yPosOffset: 1
   explosionEffect: {fileID: 2793097099740318121, guid: d0ae79c15eff4234a90c4a3992b01ce4, type: 3}

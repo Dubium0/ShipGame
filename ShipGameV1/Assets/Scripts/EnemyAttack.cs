@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyAttack : MonoBehaviour
 {
    
@@ -21,10 +22,18 @@ public class EnemyAttack : MonoBehaviour
 
     private bool reduce=false;
 
-    private bool canAttack =true;
+    private bool canAttack =false;
+
+    
     
 
 
+    void Start() {
+        gm.remainingBullet = 10;
+        Debug.Log("wait");
+        StartCoroutine(wait(5));
+        
+    }
     private void Update() {
 
         if(reduce)
@@ -39,7 +48,7 @@ public class EnemyAttack : MonoBehaviour
         
        Instantiate(Bullet, transform.position, Quaternion.identity);
        reduce = true;
-
+        gm.remainingBullet --;
        
       
        
@@ -73,7 +82,13 @@ public class EnemyAttack : MonoBehaviour
         }
         
     }
-
+    IEnumerator wait(float waitTime) {
+        {
+            yield return new WaitForSeconds(waitTime);
+            Debug.Log("Finished");
+            canAttack = true;
+        }
+    }
   
 
 }
