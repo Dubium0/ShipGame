@@ -599,8 +599,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: -0.08456167, y: -0.7421358, z: 0.09537185, w: -0.6580182}
-  m_LocalPosition: {x: 119.69521, y: 19.876377, z: 167.76413}
+  m_LocalRotation: {x: 0.054217767, y: -0.8277399, z: 0.0812199, w: 0.5525491}
+  m_LocalPosition: {x: 153.40237, y: 15.532291, z: 167.5342}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8a35822436909b48873e811fd33abe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
+  text: {fileID: 1933171395}
 --- !u!114 &1933171395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1062,6 +1062,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3899575441453051734, guid: 3da59ea77f91bba49b7cfe67bdd3c614, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899575441453051734, guid: 3da59ea77f91bba49b7cfe67bdd3c614, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []

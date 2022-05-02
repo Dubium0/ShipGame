@@ -35,7 +35,7 @@ public class EnemyBullet : MonoBehaviour
     }
     void Start()
     {
-        player  = GameObject.FindGameObjectWithTag("Construction");
+        player  = GameObject.FindGameObjectWithTag("Player");
         LaunchAttack();
         rb.velocity = Vf;
         
